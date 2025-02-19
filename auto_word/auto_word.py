@@ -14,8 +14,9 @@ CONSTANTES = {
     "fecha":fecha
 }
 
-doc = DocxTemplate("plantilla.docx")
-df = pandas.read_excel("alumnos.xlsx")
+# This documents can/must be changed
+doc = DocxTemplate("document.docx")
+df = pandas.read_excel("document.xlsx")
 
 for indice, fila in df.iterrows():
     contenido = {
