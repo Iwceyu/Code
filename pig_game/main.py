@@ -2,6 +2,9 @@ import random
 
 
 def roll() -> int:
+    """
+    :return: Random integer value between 1 and 6.
+    """
     min_val : int = 1
     max_val : int = 6
     roll : random = random.randint(min_val, max_val)
