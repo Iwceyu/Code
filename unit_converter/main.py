@@ -38,3 +38,11 @@ def feet_to_inch(feet : float) -> float:
         print("Value must be greater than 0")
     else:
         return round(feet * 12, 2)
+
+
+def farenheit_to_celsius(farenheit : float) -> float:
+    return round((farenheit - 32) * 5/9, 2)
+
+
+def celsius_to_farenheit(celsius : float) -> float:
+    return round((celsius * 9/5) + 32, 2)
